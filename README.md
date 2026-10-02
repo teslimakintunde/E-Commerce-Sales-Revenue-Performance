@@ -1,4 +1,4 @@
-# Sales & Revenue Performance
+# E-Commerce Sales & Revenue Performance
 
 **MySQL + Power BI | E-Commerce Sales Growth, Profitability & Commercial Analytics**
 
