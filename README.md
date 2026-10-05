@@ -218,3 +218,57 @@ The resulting framework provides a data-driven foundation for **profitable growt
 | **MySQL**         | Data cleaning, transformation & analytical modelling |
 | **Power Query**   | Data preparation & business-rule implementation   |
 | **Power BI + DAX**| Executive dashboards, KPIs & interactive analysis |
+
+
+---
+### Dashboard 1: Executive Overview
+<p align="left">
+  <img src="https://cdn.prod.website-files.com/650ad291fd6cf342753e6a79/6ac3646e1f353525a3d39346_Screenshot%20(1).png" alt="Profile Banner" width="100%"/>
+</p>
+
+### Dashboard 2: Product & Category Performance
+<p align="left">
+  <img src="https://cdn.prod.website-files.com/650ad291fd6cf342753e6a79/6ac3646ea92827f6ce6ee99d_Screenshot%20(2).png" alt="Profile Banner" width="100%"/>
+</p>
+
+
+### Dashboard 3: Order Value & Product Pricing
+<p align="left">
+  <img src="https://cdn.prod.website-files.com/650ad291fd6cf342753e6a79/6ac3646ebebcfc65059b7043_Screenshot%20(3).png" alt="Profile Banner" width="100%"/>
+</p>
+
+
+### Dashboard 4: Discount Strategy & Margin Protection
+<p align="left">
+  <img src="https://cdn.prod.website-files.com/650ad291fd6cf342753e6a79/6ac3646ea03f738cab723e56_Screenshot%20(4).png" alt="Profile Banner" width="100%"/>
+</p>
+
+### Dashboard 5: Promotions & Payment Behavior
+<p align="left">
+  <img src="https://cdn.prod.website-files.com/650ad291fd6cf342753e6a79/6ac3646fa9993b2e60bc820a_Screenshot%20(5).png" alt="Profile Banner" width="100%"/>
+</p>
+
+### Dashboard 6:Fulfillment & Customer Experience
+<p align="left">
+  <img src="https://cdn.prod.website-files.com/650ad291fd6cf342753e6a79/6ac3646e6af48eae4dbc667f_Screenshot%20(6).png" alt="Profile Banner" width="100%"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
