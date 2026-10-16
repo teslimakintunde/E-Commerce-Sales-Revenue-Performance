@@ -8,6 +8,63 @@ The objective was to move beyond basic sales reporting and identify **what is dr
 
 ---
 
+# Data Cleaning, Transformation & Validation
+
+Before developing the dashboard, the dataset was prepared for consistent transaction-level analysis and reliable business reporting. The process focused on data cleaning, date standardisation, analytical field creation, business-rule implementation, and preparing the data for financial and operational analysis.
+
+## Data Cleaning & Transformation
+
+### MySQL
+
+- Profiled and prepared transaction-level data for analysis.
+- Cleaned and transformed the data required for sales and profitability reporting.
+- Prepared revenue and profit calculations and order- and product-level aggregations.
+- Created analytical classifications for discount intensity, promotional activity, product pricing, and order-value segments.
+- Prepared regional, product-level, and fulfillment data for performance analysis.
+
+### Power Query & Power BI
+
+- Standardised date fields and prepared the data for time-based analysis.
+- Implemented relevant business rules and created analytical columns.
+- Prepared the calendar table to support time-based reporting.
+- Developed the data model and analytical measures required for interactive reporting.
+
+## Business Rules & Metric Definitions
+
+Consistent business definitions were important to ensure that the dashboard reflected realised business performance rather than treating every transaction as a completed sale.
+
+- **Revenue recognition:** Cancelled and returned transactions are assigned ₦0 recognised revenue under the project's business rule.
+- **Zero-realised-revenue transactions:** These are treated as a distinct analytical segment rather than automatically classified as data errors.
+- **Order analysis:** Order-level metrics are interpreted using distinct orders where appropriate, while product- and transaction-level analysis uses the relevant data grain.
+- **Profitability analysis:** Revenue, profit, and profit margin are assessed together to distinguish sales growth from changes in profitability.
+- **Discount and promotion analysis:** Transactions are classified into analytical segments to compare their observed revenue and profitability.
+- **Fulfillment analysis:** Delivery time, delays, cancellations, and returns are assessed overall and across regions and products.
+
+## Validation Focus
+
+The preparation and analysis workflow considered the consistency of the following elements:
+
+- Date fields and reporting-period coverage for 2024–2025.
+- Order counts and the distinction between transactions, products, and distinct orders.
+- Revenue and profit calculations used in KPI cards and aggregated visuals.
+- Consistency of discount, promotion, pricing, and order-value classifications.
+- Application of the cancelled- and returned-transaction revenue rule.
+- Alignment between summary KPIs and the detailed breakdowns used throughout the report.
+
+These checks are important because incorrect date handling, inconsistent aggregation, or mismatched business rules can distort growth rates, financial totals, and operational performance metrics.
+
+> **Data preparation principle:** The objective was not simply to clean the dataset, but to establish consistent analytical definitions and a suitable foundation for interpreting business performance. Reported totals and KPIs should be reconciled against the underlying SQL outputs and Power BI measures before being treated as independently validated results.
+
+
+
+
+
+
+
+
+
+
+
 ## Dashboard Overview
 
 ### Page 1 — Executive Sales Overview
